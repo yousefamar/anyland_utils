@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.78.0 commit date:2016-10-24, commit time:12:20, hash:e8299c8</authoring_tool>
+    </contributor>
+    <created>2016-12-12T20:05:55</created>
+    <modified>2016-12-12T20:05:55</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_effects>
+    <effect id="__1_1_012-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">1 1 1 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="__1_1_012-material" name="__1_1_012">
+      <instance_effect url="#__1_1_012-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Ramp-mesh" name="Ramp">
+      <mesh>
+        <source id="Ramp-mesh-positions">
+          <float_array id="Ramp-mesh-positions-array" count="78">0.9999999 0.5251607 -0.7365839 1.000001 -1.474842 -0.7365854 -1 -1.474842 -0.7365849 -1.000001 0.5251603 -0.7365838 1 0.5251591 1.263418 -0.9999999 0.5251594 1.263419 -1 -1.474841 -0.7365792 1.000001 -1.474841 -0.7365793 -0.9999999 0.5251594 1.263419 -1.000001 0.5251603 -0.7365838 -1 -1.474842 -0.7365849 -1 -1.474841 -0.7365792 1 0.5251591 1.263418 0.9999999 0.5251607 -0.7365839 -1.000001 0.5251603 -0.7365838 -0.9999999 0.5251594 1.263419 1.000001 -1.474841 -0.7365793 1.000001 -1.474842 -0.7365854 0.9999999 0.5251607 -0.7365839 1 0.5251591 1.263418 1.000001 -1.474842 -0.7365854 1.000001 -1.474841 -0.7365793 -1 -1.474841 -0.7365792 -1 -1.474842 -0.7365849 1.000001 -1.474842 -0.7365854 -1 -1.474841 -0.7365792</float_array>
+          <technique_common>
+            <accessor source="#Ramp-mesh-positions-array" count="26" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Ramp-mesh-normals">
+          <float_array id="Ramp-mesh-normals-array" count="75">-1.3491e-7 6.5565e-7 -1 -2.10215e-7 7.74859e-7 -1 -1.3491e-7 6.5565e-7 -1 0 5.36441e-7 -1 1.75983e-7 -0.7071064 0.7071073 1.26441e-7 -0.7071063 0.7071073 2.03338e-7 -0.7071064 0.7071073 2.52881e-7 -0.7071064 0.7071073 -1 -4.17232e-7 5.36441e-7 -1 -4.17232e-7 5.36441e-7 -0.9998419 0.01448041 -0.01032382 -0.99934 0.0293734 -0.02137798 0 1 6.85452e-7 -2.08616e-7 1 8.94068e-7 0 1 6.85453e-7 1.19209e-7 1 4.76836e-7 0.9999915 -0.001044034 0.004020631 0.9999804 -0.001417279 0.006112158 1 5.66244e-7 -1.78813e-7 0.007825314 -0.9963875 0.08456277 0.008409976 -0.9963382 0.08508616 0.007365226 -0.996335 0.08521968 9.90419e-4 -0.9926273 0.121203 0.003048598 -0.9925771 0.1215794 0.002378463 -0.992582 0.1215545</float_array>
+          <technique_common>
+            <accessor source="#Ramp-mesh-normals-array" count="25" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Ramp-mesh-map-0">
+          <float_array id="Ramp-mesh-map-0-array" count="72">-0.005935609 -0.00233072 -0.00593549 0.9976692 0.9940643 0.9976691 0.9940643 -0.002331018 -0.005935609 -0.00233072 0.9940643 0.9976691 9.197e-5 -0.00233072 1.000092 -0.002331197 1.000092 0.9976689 9.2268e-5 0.9976691 9.197e-5 -0.00233072 1.000092 0.9976689 -0.002331197 0.9986134 -0.002330899 -0.001386404 0.9976692 -0.001386404 0.9976689 -0.001383483 -0.002331197 0.9986134 0.9976692 -0.001386404 9.197e-5 0.9986134 9.2268e-5 -0.001386404 1.000092 -0.001386404 1.000092 0.9986134 9.197e-5 0.9986134 1.000092 -0.001386404 1.003056 0.004644513 1.003056 0.004641592 0.003055751 0.004641592 0.003055751 1.004641 1.003056 0.004644513 0.003055751 0.004641592 -0.6629832 0.5170182 -0.6629834 0.5170211 0.3370168 0.5170211 0.3370166 0.5170182 -0.6629832 0.5170182 0.3370168 0.5170211</float_array>
+          <technique_common>
+            <accessor source="#Ramp-mesh-map-0-array" count="36" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Ramp-mesh-vertices">
+          <input semantic="POSITION" source="#Ramp-mesh-positions"/>
+        </vertices>
+        <polylist material="__1_1_012-material" count="12">
+          <input semantic="VERTEX" source="#Ramp-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Ramp-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Ramp-mesh-map-0" offset="2" set="0"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>0 0 0 1 1 1 2 2 2 3 3 3 0 0 4 2 2 5 4 4 6 5 5 7 6 6 8 7 7 9 4 4 10 6 6 11 8 8 12 9 9 13 10 10 14 11 11 15 8 8 16 10 10 17 12 12 18 13 13 19 14 14 20 15 15 21 12 12 22 14 14 23 16 16 24 17 17 25 18 18 26 19 18 27 16 16 28 18 18 29 20 19 30 21 20 31 22 21 32 23 22 33 24 23 34 25 24 35</p>
+        </polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers/>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Ramp" name="Ramp" type="NODE">
+        <matrix sid="transform">0.125 0 0 0 0 0.125 0 0 0 0 0.125 0 0 0 0 1</matrix>
+        <instance_geometry url="#Ramp-mesh" name="Ramp">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="__1_1_012-material" target="#__1_1_012-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

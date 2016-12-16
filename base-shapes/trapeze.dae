@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.78.0 commit date:2016-10-24, commit time:12:20, hash:e8299c8</authoring_tool>
+    </contributor>
+    <created>2016-12-12T20:08:12</created>
+    <modified>2016-12-12T20:08:12</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_effects>
+    <effect id="__1_1_022-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">1 1 1 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="__1_1_022-material" name="__1_1_022">
+      <instance_effect url="#__1_1_022-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Trapeze-mesh" name="Trapeze">
+      <mesh>
+        <source id="Trapeze-mesh-positions">
+          <float_array id="Trapeze-mesh-positions-array" count="72">-0.6469017 -0.6469024 0.4328035 -0.6469016 0.6469025 0.432803 -1 1.000001 -0.3652099 -1 -1.000001 -0.3652092 1 1.000001 -0.3652104 -1 1.000001 -0.3652099 -0.6469016 0.6469025 0.432803 0.6469018 0.6469025 0.4328026 1 -1.000001 -0.3652099 1 1.000001 -0.3652104 0.6469018 0.6469025 0.4328026 0.6469021 -0.6469024 0.4328031 0.6469021 -0.6469024 0.4328031 -0.6469017 -0.6469024 0.4328035 -1 -1.000001 -0.3652092 1 -1.000001 -0.3652099 1 1.000001 -0.3652104 1 -1.000001 -0.3652099 -1 -1.000001 -0.3652092 -1 1.000001 -0.3652099 -0.6469016 0.6469025 0.432803 -0.6469017 -0.6469024 0.4328035 0.6469021 -0.6469024 0.4328031 0.6469018 0.6469025 0.4328026</float_array>
+          <technique_common>
+            <accessor source="#Trapeze-mesh-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Trapeze-mesh-normals">
+          <float_array id="Trapeze-mesh-normals-array" count="72">-0.9144797 1.55189e-7 0.4046321 -0.9144796 2.11172e-7 0.4046323 -0.9144796 1.80545e-7 0.4046322 -0.9144796 1.36607e-7 0.404632 0 0.9144797 0.4046319 0 0.9144796 0.404632 0 0.9144796 0.404632 0 0.9144797 0.4046319 0.9144799 2.70818e-7 0.4046316 0.9144797 2.04911e-7 0.4046317 0.9144798 2.32783e-7 0.4046316 0.91448 3.16757e-7 0.4046313 1.63764e-7 -0.9144795 0.4046323 0 -0.9144795 0.4046323 1.39655e-7 -0.9144796 0.4046323 1.81432e-7 -0.9144796 0.4046323 -2.64203e-7 -2.90572e-7 -1 -2.89989e-7 -2.53319e-7 -1 -2.64203e-7 -2.90572e-7 -1 -2.38418e-7 -3.27825e-7 -1 2.84861e-7 3.57037e-7 1 2.84861e-7 3.68554e-7 1 2.84861e-7 3.57037e-7 1 2.84861e-7 3.4552e-7 1</float_array>
+          <technique_common>
+            <accessor source="#Trapeze-mesh-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Trapeze-mesh-map-0">
+          <float_array id="Trapeze-mesh-map-0-array" count="72">0.1765493 1 0.8234508 1 1 0 0 0 0.1765493 1 1 0 1 0 0 0 0.1765491 0.9999997 0.8234506 0.9999997 1 0 0.1765491 0.9999997 0 0 1 0 0.8234508 1 0.1765493 1 0 0 0.8234508 1 0.8234506 1 0.1765491 1 0 3.57704e-7 1 3.57704e-7 0.8234506 1 0 3.57704e-7 1 1 0 1 0 0 1 0 1 1 0 0 1 1 0 1 0 0 1 0 1 1 0 0</float_array>
+          <technique_common>
+            <accessor source="#Trapeze-mesh-map-0-array" count="36" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Trapeze-mesh-vertices">
+          <input semantic="POSITION" source="#Trapeze-mesh-positions"/>
+        </vertices>
+        <polylist material="__1_1_022-material" count="12">
+          <input semantic="VERTEX" source="#Trapeze-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Trapeze-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Trapeze-mesh-map-0" offset="2" set="0"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>0 0 0 1 1 1 2 2 2 3 3 3 0 0 4 2 2 5 4 4 6 5 5 7 6 6 8 7 7 9 4 4 10 6 6 11 8 8 12 9 9 13 10 10 14 11 11 15 8 8 16 10 10 17 12 12 18 13 13 19 14 14 20 15 15 21 12 12 22 14 14 23 16 16 24 17 17 25 18 18 26 19 19 27 16 16 28 18 18 29 20 20 30 21 21 31 22 22 32 23 23 33 20 20 34 22 22 35</p>
+        </polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers/>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Trapeze" name="Trapeze" type="NODE">
+        <matrix sid="transform">0.125 0 0 0 0 0.125 0 0 0 0 0.125 0 0 0 0 1</matrix>
+        <instance_geometry url="#Trapeze-mesh" name="Trapeze">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="__1_1_022-material" target="#__1_1_022-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
