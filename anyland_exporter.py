@@ -34,7 +34,7 @@ class ExportAnylandJSON(bpy.types.Operator, ExportHelper):
                         # Position
                         'p': (obj.location[0], obj.location[1], obj.location[2]),
                         # Rotation
-                        'r': (obj.rotation_euler[0], obj.rotation_euler[1], obj.rotation_euler[2]),
+                        'r': (obj.rotation_euler[0] % 360, obj.rotation_euler[1] % 360, obj.rotation_euler[2] % 360),
                         # Scale
                         's': (obj.scale[0], obj.scale[1], obj.scale[2]),
                         # Color
